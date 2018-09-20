@@ -1,0 +1,83 @@
+/* General styles */
+body {
+    margin: 1em;
+    font-size: 20px;
+
+  }
+  
+  
+  /* specific boxes */
+  
+  #wrapper header, #wrapper footer {
+    background-color: blue;
+    color: white;
+
+    padding: 20px;
+  }
+  
+  #wrapper main {
+    background-color: #658486;
+    margin: 1em 13em 1em 1em;
+    width: auto;
+    display: inline-block;
+    float: left;
+    padding: 20px;
+
+  }
+
+  aside {
+    background-color: #3d3bac94;
+    float: left;
+    width:auto;
+    margin: 1em 1em 1em -12em;
+    display: block;
+  }
+  
+  
+
+  .nav {
+    background-color: aqua;
+    margin: -20px 0 0 0;
+    width: 100%;
+    float: left;
+  }
+
+  .nav p, aside p {
+    display: block;
+    float: left;
+    margin: 0;
+    padding: 0.5em;
+    font-family: 'helvetica neue', helvetica, sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+    box-shadow: 1px 1px 2px rgba(0,0,200,0.1);
+    cursor:pointer;
+    width:10em;
+  }
+
+  .nav p:hover, aside p:hover {
+    color: white;
+    background-color: rgba(0,0,200,0.6);
+    box-shadow: 1px 1px 2px rgba(0,200,200,0.4);
+  }
+
+
+  #wrapper footer {
+    margin-top: 30px;
+    clear: both;
+  }
+
+  main p {
+    width  : 15em;
+    height : 2.5em;
+    padding: 1em 1em 1em 1em;
+    
+    float: left;
+
+  }
+
+  
+  .autoscroll { overflow: auto;    }
+  .clipped    { overflow: hidden;  }
+  .default    { overflow: visible; }
